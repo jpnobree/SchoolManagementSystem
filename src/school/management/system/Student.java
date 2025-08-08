@@ -34,4 +34,30 @@ public class Student {
         this.feesPaid += fees;
     }
 
+    // retorna o ID do estudante
+    public int getId() {
+        return id;
+    }
+
+    // retorna o nome do estudante
+    public String getName() {
+        return name;
+    }
+
+    // retorna a turma do estudante
+    public int getGrade() {
+        return grade;
+    }
+
+    // retorna as taxas pagas do estudante
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    // retorna as taxas total do estudante
+    public int getFeesTotal() {
+        return feesTotal;
+    }
+
+
 }
