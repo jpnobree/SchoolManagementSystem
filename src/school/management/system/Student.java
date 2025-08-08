@@ -64,4 +64,9 @@ public class Student {
         return feesTotal - feesPaid;
     }
 
+    @Override
+    public String toString() {
+        return "\nStudent's name: "+name+
+                " \nTotal Fees Paid: "+feesPaid;
+    }
 }

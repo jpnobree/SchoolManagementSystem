@@ -30,5 +30,9 @@ public class Main {
         System.out.println("----- SCHOOL PAY SALARY -----");
         jonas.receiveSalary(jonas.getSalary());
         System.out.println("Jaime Alencar de Oliveira pagou ao " + jonas.getName() + " e agora tem: R$" + jao.getTotalMoneyEarned());
+
+        System.out.println(levi);
+
+        System.out.println(jonas);
     }
 }
