@@ -30,8 +30,9 @@ public class Student {
         this.grade = grade;
     }
 
-    public void updateFeesPaid(int fees) {
-        this.feesPaid += fees;
+    public void payFees(int fees) {
+        feesPaid += fees;
+        School.updateTotalMoneyEarned(feesPaid);
     }
 
     // retorna o ID do estudante
@@ -59,5 +60,8 @@ public class Student {
         return feesTotal;
     }
 
+    public int getRemainingFees() {
+        return feesTotal - feesPaid;
+    }
 
 }
